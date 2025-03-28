@@ -1,0 +1,26 @@
+{
+    "questions" : [
+        {"question":"Let f(x)=x^3+15x^2−33x−36 be a real-valued function.Which of the following statements is/are TRUE?",
+        "options":["f(x) does not have a local maximum.","f(x)  has a local maximum.","f(x) does not have a local minimum.","f(x)  has a local minimum."],
+        "answer":["f(x)  has a local maximum.","f(x)  has a local minimum."]
+        },
+        {
+            "question":"Let det(A) and det(B) denote the determinants of the matrices A and B, respectively.Which one of the options given below is TRUE?",
+            "image":"./questionbank/em1.png",
+            "options":["det(A) = det(B)","det(B) = - det(A)","det(A)=0","det(AB) = det(A) + det(B)"],
+            "answer":"det(B) = - det(A)"
+        },
+        {
+            "question":"Suppose that P is a 4x5 matrix such that every solution of the equation Px=0 is a scalar multiple of [2, 5, 4, 3, 1]T. The rank of P is _______",
+            "type":"numerical",
+            "answer":"4"
+        },
+        {
+            "question": "Consider the following expression. The value of \\(\\lim_{x \\to -3} \\frac{\\sqrt{2x+22}-4}{x+3}\\) (rounded to 2 decimal places) is:",
+            "image": "./questionbank/Screenshot 2025-03-28 092001.png",
+            "options": [],
+            "answer": "0.25",
+            "expression": "\\lim_{x \\to -3} \\frac{\\sqrt{2x+22}-4}{x+3}"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "questions":[
+        {
+            "question":"Consider the following C program. The output of the given C program is ________. (Answer in integer)",
+            "image":"./questionbank/cs1.png",
+            "type":"numerical",
+            "answer":46
+        },
+        {
+            "question":"Consider the following C program. The output of the above program is ___________. (Answer in integer)",
+            "image":"./questionbank/cs2.png",
+            "type":"numerical",
+            "answer":111
+        },
+        {
+            "question":"The output of the given C code segment is ________. (Answer in integer)",
+            "image":"./questionbank/cs3.png",
+            "type":"numerical",
+            "answer":21
+        },
+        {
+            "question":"Which ONE of the following will be the output of the program?",
+            "image":"./questionbank/cs4.png",
+            "options":["@#Hello World!","Hello World!","ello World!","Hello World!d!"],
+            "answer": "Hello World!d!"
+        },
+        {
+            "question":"Consider the following C program. The output of the above program is ___________. (Answer in integer)",
+            "image":"./questionbank/cs5.png",
+            "type":"numerical",
+            "answer":46
+        },
+        {
+            "question":"Consider the following C program. Assume that the input to the program from the command line is 1234 followed by a newline character. Which one of the following statements is CORRECT?",
+            "image":"./questionbank/cs6.png",
+            "options":["The program will not terminate","The program will terminate with no output","The program will terminate with 4321 as output","The program will terminate with 1234 as output"],
+            "answer":"The program will terminate with 4321 as output"
+        },
+        {
+            "question":"What is printed by the following ANSI C program?",
+            "image":"./questionbank/cs7.png",
+            "options":["z K S","122 75 83","* - +","P x +"],
+            "answer":"z K S"
+        }
+    ]
+}

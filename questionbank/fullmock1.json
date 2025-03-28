@@ -1,0 +1,271 @@
+{
+    "questions": [
+    
+        {
+            "question":"Given an integer array of size N,we want to check if the array is sorted (in either ascending or descending order). An algorithm solves this problem by making a single pass through the array and comparing each element of the array only with its adjacent elements. The worst-case time complexity of this algorithm is",
+            "options":["Both O(N) and Ω(N)","O(N) but not Ω(N)","Ω(N) but not O(N)","neither O(N) nor Ω(N)"],
+            "answer":"Both O(N) and Ω(N)"
+        },
+        {
+            "question":"Consider 4-variable functions f1,f2,f3,f4 expressed in sum-of-minterms form as given below.<br>f1=∑(0,2,3,5,7,8,11,13)<br>f2=∑(1,3,5,7,11,13,15)<br>f3=∑(0,1,4,11)<br>f4=∑(0,2,6,13)<br>With respect to the circuit given below, which of the following options is/are CORRECT?",
+             "image": "../questionbank/mock1.webp",
+            "options":["Y=∑(0,1,2,11,13)","Y=Π(3,4,5,6,7,8,9,10,12,14,15)","Y=∑(0,1,2,3,4,5,6,7)","Y=Π(8,9,10,11,12,13,14,15)"],
+            "answer":["Y=∑(0,1,2,3,4,5,6,7)","Y=Π(8,9,10,11,12,13,14,15)"]
+        },
+        {
+            "question":"Consider a digital logic circuit consisting of three 2-to-1 multiplexers M1, M2, and M3 as shown below. X1 and X2 are inputs of M1.X3 and X4 are inputs of M2. A,B and C are select lines of M1,M2 and M3 respectivily.<br>For an instance of inputs X1=X2=1,X3=0 and X4=0.the number of combinations of A,B,C  that give the output Y=1 is_____.",
+            "type":"numerical",
+            "image":"../questionbank/imgg2.webp",
+            "answer":4
+        },
+        {
+            "question":"A particular number is written as 132 in radix-4 representation. The same number in radix-5 representation is ___",
+            "type":"numerical",
+            "answer":110
+        },
+        {
+            "question":"Consider three floating point numbers A, B and C stored in registers R1 , R2 and R3 respectively as per IEEE-754 single precision floating point format. The 32-bit content stored in these registers (in hexadecimal form) are as follows.<br><br>R1 = 0xC1400000<br>R2 = 0x42100000<br>R3 = 0x41400000<br><br>Which one of the following is FALSE?",
+            "options":["A + C = 0","C = A + B","B = 3C","(B-C)>0"],
+            "answer":"C = A + B"
+        },
+        {
+            "question":"Consider a permutation sampled uniformly at random from the set of all permutations of {1,2,3,.....,n} for some n>=4. Let X be the event that 1 occurs before 2 in the permutation, and Y  the event that 3 occurs before 4 . Which one of the following statements is TRUE?",
+            "options":["The events X and Y are mutually exclusive","The events X and Y are independent","Either event X or Y must occur","Event X is more likely than event Y"],
+            "answer":"The events X and Y are independent"
+        },
+        {
+            "question":"Which one of the following statements is FALSE?",
+            "options":["In the cycle stealing mode of DMA, one word of data is transferred between an I/O device and main memory in a stolen cycle","For bulk data transfer, the burst mode of DMA has a higher throughput than the cycle stealing mode","Programmed I/O mechanism has a better CPU utilization than the interrupt driven I/O mechanism","The CPU can start executing an interrupt service routine faster with vectored interrupts than with non-vectored interrupts"],
+            "answer":"Programmed I/O mechanism has a better CPU utilization than the interrupt driven I/O mechanism"
+        },
+        {
+            "question":"Which of the following statements is/are FALSE?",
+            "options":["An attribute grammar is a syntax-directed definition (SDD) in which the functions in the semantic rules have no side effects","The attributes in a L-attributed definition cannot always be evaluated in a depth- first order","Synthesized attributes can be evaluated by a bottom-up parser as the input is parsed","All L-attributed definitions based on LR(1) grammar can be evaluated using a bottom-up parsing strategy"],
+            "answer":["The attributes in a L-attributed definition cannot always be evaluated in a depth- first order","All L-attributed definitions based on LR(1) grammar can be evaluated using a bottom-up parsing strategy"]
+        },
+        {
+            "question": "Consider the following two sets:<br> Set-A&nbsp;                                Set-B<br>P. Lexical Analyzer&nbsp;                 1. Abstract Syntax Tree<br>Q. Syntax Analyzer&nbsp;                  2. Token<br>R. Intermediate Code Generator&nbsp;                3. Parse Tree<br>S. Code Optimizer&nbsp;                4. Constant Folding<br><br>Which one of the following options is the CORRECT match from Set X to Set Y ?<br>",
+            "options": ["P-4; Q-1; R-3; S-2", "P-2; Q-3; R-1; S-4", "P-2; Q-1; R-3; S-4", "P-4; Q-3; R-2; S-1"],
+            "answer": "P-2; Q-3; R-1; S-4"
+          } ,
+        {
+            "question":"Consider the following pseudo-code.<br>L1 : t1 = -1<br>L2 : t2 = 0<br>L3 : t3 = 0<br>L4 : t4 = 4 * t3<br>L5 : t5 = 4 * t2<br>L6 : t6 = t5 * M<br>L7 : t7 = t4 + t6<br>L8 : t8 = a[t7]<br>L9 : if t8 <= max goto L11<br>L10 : t1 = t8<br>L11 : t3 = t3 + 1 <br>L12 : if t3 < M goto L4 <br>L13 : t2 = t2 + 1<br>L14 : if t2 < N goto L3<br>L15 : max = t1<br><br>Which of of the following options CORRECTLY specifies the number of basic blocks and the number of instructions in the largest basic block, respectively?<br>",
+            "options":["6 and 6","6 and 7","7 and 7","7 and 6"],
+            "answer":"7 and 6"
+        },
+        {
+            "question":"Consider the following grammar G, with S as the start symbol. The grammar G has three incomplete productions denoted by (1), (2), and (3).<br>S -> daT | (1)<br>T -> aS | bT | (2)<br>R -> (3) | ε<br><br>The set of terminals is {a,b,c,d,f}. The FIRST and FOLLOW sets of the different non-terminals are as follows.<br>​FIRST(S)={c,d,f},FIRST(T)={a,b,ϵ},FIRST(R)={c,ϵ}<br>FOLLOW(S)=FOLLOW(T)={c,f,$},FOLLOW(R)={f}<br><br>Which one of the following options CORRECTLY fills in the incomplete productions?<br>",
+            "options":["(1)S -> Rf (2)T -> ϵ (3)R -> cTR","(1)S -> fR (2)T -> ϵ (3)R -> cTR","(1)S -> fR (2)T -> cT (3)R -> cR","(1)S -> Rf (2)T -> cT (3)R -> cR"],
+            "answer":"(1)S -> Rf (2)T -> ϵ (3)R -> cTR"
+        },
+        {
+            "question":"You are given a set V of distinct integers. A binary search tree T is created by inserting all elements of V one by one, starting with an empty tree. The tree T follows the convention that, at each node, all values stored in the left subtree of the node are smaller than the value stored at the node. You are not aware of the sequence in which these values were inserted into T, and you do not have access to T.Which one of the following statements is TRUE?",
+            "options":["Inorder traversal of T can be determined from V","Root node of T can be determined from V","Preorder traversal of T can be determined from V","Postorder traversal of T can be determined from V"],
+            "answer":"Inorder traversal of T can be determined from V"
+        },
+        {
+            "question":"Let A be an array containing integer values. The distance of A is defined as the minimum number of elements in A that must be replaced with another integer so that the resulting array is sorted in non-decreasing order. The distance of the array [2,5,3,1,4,2,6] is _____",
+            "type":"numerical",
+            "answer":3
+        },
+        {
+            "question":"Consider a binary min-heap containing 105 distinct elements. Let k be the index (in the underlying array) of the maximum element stored in the heap. The number of possible values of k is",
+            "options":["54","53","27","1"],
+            "answer":53
+        },
+        {
+            "question":"An array [82,101,90,11,111,75,33,131,44,93] is heapified. Which one of the following options represents the first three elements in the heapified array?",
+            "options":["82,90,101","82,11,93","131,11,93","131,111,90"],
+            "answer":"131,111,90"
+        },
+        {
+            "question":"The number of distinct minimum-weight spanning trees of the following graph is _______",
+            "image":"../questionbank/algo1.webp",
+            "type":"numerical",
+            "answer":9
+        },
+        {
+            "question":"The number of spanning trees in a complete graph of 4 vertices labelled A, B, C, and D is _________",
+            "type":"numerical",
+            "answer":16
+        },
+        {
+            "question":"Consider an array X that contains n positive integers. A subarray of X is defined to be a sequence of array locations with consecutive indices.The C code snippet given below has been written to compute the length of the longest subarray of X that contains at most two distinct integers. The code has two missing expressions labelled (P) and (Q).<br><br>int first=0, second=0, len1=0, len2=0, maxlen=0;<br>&nbsp;for(int i=0; i < n; i++) {<br>&nbsp;             if (X[i] == first) {<br> &nbsp;            len2++; len1++;<br> &nbsp;          }else if (X[i] == second) {     <br>&nbsp;            len2++;<br> &nbsp;        len1 = (P) ;<br>&nbsp;       second = first;<br> &nbsp;           } else {<br>   &nbsp;           len2 = (Q) ;<br> &nbsp;         len1 = 1; second = first;<br>&nbsp;            }<br>if (len2 > maxlen) {<br> &nbsp;            maxlen = len2;<br> &nbsp;                }<br>&nbsp;    first = X[i];<br>}<br><br>Which one of the following options gives the CORRECT missing expressions?<br>(Hint: At the end of the i-th iteration, the value of len1 is the length of the longest subarray ending with X[i] that contains all equal values, and len2 is the length of the longest subarray ending with X[i] that contains at most two distinct values.)<br>",
+            "options":["(P) len1+1 (Q) len2+1","(P) 1 (Q) len1+1","(P) 1 (Q) len2+1","(P) len2+1 (Q) len1+1"],
+            "answer":"(P) 1 (Q) len1+1"
+        },
+        {
+            "question":"Consider a single processor system with four processes A, B, C, and D, represented as given below, where for each process the first value is its arrival time, and the second value is its CPU burst time.A (0, 10), B (2, 6), C (4, 3), and D (6, 7).Which one of the following options gives the average waiting times when preemptive Shortest Remaining Time First (SRTF) and Non-Preemptive Shortest Job First (NP-SJF) CPU scheduling algorithms are applied to the processes?",
+            "options":["SRTF = 6, NP-SJF = 7","SRTF = 6, NP-SJF = 7.5","SRTF = 7, NP-SJF = 7.5","SRTF = 7, NP-SJF = 8.5"],
+            "answer":"SRTF = 6, NP-SJF = 7.5"
+        },
+        {
+            "question":"Which one or more of the following CPU scheduling algorithms can potentially cause starvation?",
+            "options":["First-in First-Out","Round Robin","Priority Scheduling","Shortest Job First"],
+            "answer":["Priority Scheduling","Shortest Job First"]
+        },{
+            "question":"Consider four processes P, Q, R, and S scheduled on a CPU as per round robin algorithm with a time quantum of 4 units. The processes arrive in the order P, Q, R, S, all at time t = 0. There is exactly one context switch from S to Q, exactly one context switch from R to Q, and exactly two context switches from Q to R. There is no context switch from S to P. Switching to a ready process after the termination of another process is also considered a context switch. Which one of the following is NOT possible as CPU burst time (in time units) of these processes?",
+            "options":["P = 4, Q = 10, R = 6, S = 2","P = 2, Q = 9, R = 5, S = 1","P = 4, Q = 12, R = 5, S = 4","P = 3, Q = 7, R = 7, S = 3"],
+            "answer":"P = 3, Q = 7, R = 7, S = 3"
+        },
+        {
+            "question":"Which of the following statement(s) is/are correct in the context of CPU scheduling?",
+            "options":["Turnaround time includes waiting time","The goal is to only maximize CPU utilization and minimize throughput","Round-robin policy can be used even when the CPU time required by each of the processes is not known apriori","Implementing preemptive scheduling needs hardware support"],
+            "answer":["Turnaround time includes waiting time","Round-robin policy can be used even when the CPU time required by each of the processes is not known apriori","Implementing preemptive scheduling needs hardware support"]
+        },
+        {
+            "question":"Consider the following four processes with arrival times (in milliseconds) and their length of CPU burst (in milliseconds) as shown below. These processes are run on a single processor using preemptive Shortest Remaining Time First scheduling algorithm. If the average waiting time of the processes is 1 millisecond, then the value of Z is __________.",
+            "image":"../questionbank/os1.jpg",
+            "type":"numerical",
+            "answer":2
+        },
+        {
+            "question":"Consider the set of processes with arrival time (in milliseconds). CPU burst time (in milliseconds), and priority (0 is the highest priority) shown below. None of the processes have I/O burst time.The average waiting time (in milliseconds) of all the processes using preemptive priority scheduling algorithm is __________",
+            "image":"../questionbank/os2.jpg",
+            "type":"numerical",
+            "answer":29
+        },
+        {
+            "question":"Which of the following algorithms defines time quantum?",
+            "options":["shortest job scheduling algorithm","round robin scheduling algorithm","priority scheduling algorithm","multilevel queue scheduling algorithm"],
+            "answer":"round robin scheduling algorithm"
+        },
+        {
+            "question":"In which one of the following page replacement policies, Belady's anomaly may occur?",
+            "options":["FIFO","Optimal","LRU","MRU"],
+            "answer":"FIFO"
+        },
+        {
+            "question":"For the real time operating system, which of the following is the most suitable scheduling scheme?",
+            "options":["Round robin","First come first serve","Pre-emptive","Random scheduling"],
+            "answer":"Pre-emptive"
+        },
+        {
+            "question":"Which one of the following CIDR prefixes exactly represents the range of IP addresses 10.12.2.0 to 10.12.3.255?",
+            "options":["10.12.2.0/23","10.12.2.0/24","10.12.0.0/22","10.12.2.0/22"],
+            "answer":"10.12.2.0/23"
+        },
+        {
+            "question":"Which of the following fields of an IP header is/are always modified by any router before it forwards the IP packet?",
+            "options":["Source IP Address","Protocol","Time to Live (TTL)","Header Checksum"],
+            "answer":["Time to Live (TTL)","Header Checksum"]
+        },
+        {
+            "question":"Consider an Ethernet segment with a transmission speed of 10^8 bits/sec and a maximum segment length of 500 meters. If the speed of propagation of the signal in the medium is 2×10^8meters/sec, then the minimum frame size (in bits) required for collision detection is _________",
+            "type":"numerical",
+            "answer":500
+        },
+        {
+            "question":"An organization requires a range of IP address to assign one to each of its 1500 computers. The organization has approached an Internet Service Provider (ISP) for this task. The ISP uses CIDR and serves the requests from the available IP address space 202.61.0.0/17. The ISP wants to assign an address space to the organization which will minimize the number of routing entries in the ISP?s router using route aggregation. Which of the following address spaces are potential candidates from which the ISP can allot any one of the organization?<br><br>I. 202.61.84.0/21<br>II. 202.61.104.0/21<br>III. 202.61.64.0/21<br>IV. 202.61.144.0/21",
+            "options":["I and II only","II and III only","III and IV only","all od the above"],
+            "answer":"I and II only"
+        },
+        {
+            "question":"Consider a simple communication system where multiple nodes are connected by a shared broadcast medium (like Ethernet or wireless). The nodes in the system use the following carrier-sense based medium access protocol. A node that receives a packet to transmit will carrier-sense the medium for 5 units of time. If the node does not detect any other transmission in this duration, it starts transmitting its packet in the next time unit. If the node detects another transmission, it waits until this other transmission finishes, and then begins to carrier-sense for 5 time units again. Once they start to transmit, nodes do not perform any collision detection and continue transmission even if a collision occurs. All transmissions last for 20 units of time. Assume that the transmission signal travels at the speed of 10 meters per unit time in the medium.Assume that the system has two nodes P and Q, located at a distance d meters from each other. P starts transmitting a packet at time t=0 after successfully completing its carrier-sense phase. Node Q has a packet to transmit at time t=0 and begins to carrier-sense the medium.The maximum distance d (in meters, rounded to the closest integer) that allows Q to successfully avoid a collision between its proposed transmission and P's ongoing transmission is _____.",
+            "type":"numerical",
+            "answer":50
+        },
+        {
+            "question":"Consider an IP packet with a length of 4,500 bytes that includes a 20-byte IPv4 header and a 40-byte TCP header. The packet is forwarded to an IPv4 router that supports a Maximum Transmission Unit (MTU) of 600 bytes. Assume that the length of the IP header in all the outgoing fragments of this packet is 20 bytes. Assume that the fragmentation offset value stored in the first fragment is 0.The fragmentation offset value stored in the third fragment is _______.",
+            "type":"numerical",
+            "answer":144
+        },
+        {
+            "question":"Which of the following protocol is used for transferring electronic mail messages from one machine to another?",
+            "options":["TELNET","FTP","SNMP","SMTP"],
+            "answer":"SMTP"
+        },
+        {
+            "question":"The values of parameters for the Stop-and-Wait ARQ protocol are as given below:<br><br>Bit rate of the transmission channel = 1Mbps<br>Propagation delay from sender to receiver = 0.75 ms<br>Time to process a frame = 0.25ms<br>Number of bytes in the information frame =1980<br>Number of bytes in the acknowledge frame = 20<br>Number of overhead bytes in the information frame = 20<br><br>Assume that there are no transmission errors. Then the transmission efficiency ( expressed in percentage) of the Stop-and - Wait ARQ protocol for the above parameters is _________( roundoff the integer)",
+            "type":"numerical",
+            "answer":87
+        },
+        {
+            "question":"A computer network uses polynomials over GF(2) for error checking with 8 bits as information bits and uses x^3 + x + 1 as the generator polynomial to generate the check bits. In this network, the message 01011011 is transmitted as",
+            "options":["01011011010","01011011011","01011011101","01011011100"],
+            "answer":"01011011101"
+        },
+        {
+            "question":"Which one of the following is used to represent the supporting many-one relationships of a weak entity set in an entity-relationship diagram?",
+            "options":["Diamonds with double/bold border","Rectangles with double/bold border","Ovals with double/bold border","Ovals that contain underlined identifiers"],
+            "answer":"Diamonds with double/bold border"
+        },
+        {
+            "question":"Consider an Entity-Relationship (ER) model in which entity sets E1 and E2 are connected by an m : n relationship R12.<br> E1 and E3 are connected by a 1 : n (1 on the side of E1 and n on the side of E3) relationship R13.E1 has two single-valued attributes a11 and a12 of which a11 is the key attribute. E2 has two single-valued attributes a21 and a22 of which a21 is the key attribute. E3 has two single-valued attributes a31 and a32 of which a31 is the key attribute. The relationships do not have any attributes.<br>If a relational model is derived from the above ER model, then the minimum number of relations that would be generated if all the relations are in 3NF is _______.",
+            "type":"numerical",
+            "answer":4
+        },
+        {
+            "question":"Consider the following ER diagram. Which of the following is a correct attribute set for one of the tables for the minimum number of tables needed to represent M, N, P, R1, R2?",
+            "image":"../questionbank/dbms1.jpg",
+            "options":["{M1,M2,M3,P1}","{M1,P1,N1,N2}","{M1,P1,N1}","{M1,P1}"],
+            "answer":"{M1,M2,M3,P1}"
+
+        },
+        {
+            "question":"Consider the following ER diagram. The minimum number of tables needed to represent M, N, P, R1, R2 is",
+            "image":"../questionbank/dbms2.jpg",
+            "options":["2","3","4","5"],
+            "answer":"3"
+
+        },
+        {
+            "question":"Consider the entities 'hotel room', and 'person' with a many to many relationship 'lodging' as shown below. If we wish to store information about the rent payment to be made by person (s) occupying different hotel rooms, then this information should appear as an attribute of ",
+            "image":"../questionbank/dbms3.jpg",
+            "options":["Person","Lodging","Hotel Room","None of these"],
+            "answer":"Lodging"
+        },
+        {
+            "question":"The chromatic number of a graph is the minimum number of colours used in a proper colouring of the graph. The chromatic number of the following graph is _______",
+            "image":"../questionbank/dm.webp",
+            "type":"numerical",
+            "answer":2
+        },
+        {
+            "question":"When six unbiased dice are rolled simultaneously, the probability of getting all distinct numbers (i.e., 1, 2, 3, 4, 5, and 6) is",
+            "options":["1/324","11/324","5/324","7/324"],
+            "answer":"5/324"
+
+        },
+        {
+            "question":"Let A be the adjacency matrix of a simple undirected graph G. Suppose A is its own inverse. Which one of the following statements is always TRUE?",
+            "options":["G is a cycle","G is a perfect matching","G is a complete graph","There is no such graph G"],
+            "answer":"G is a perfect matching"
+        },
+        {
+            "question":"Let p and q be the following propositions:<br><br>p : Fail grade can be given.<br>q : Student scores more than 50% marks.<br><br>Consider the statement: \"Fail grade cannot be given when student scores more than 50% marks.\"<br>Which one of the following is the CORRECT representation of the above statement in propositional logic?",
+            "options":["q → ¬p","p → q","q → p","¬p → q"],
+            "answer":"q → ¬p"
+        },
+        {
+            "question":"A bag contains 10 red balls and 15 blue balls. Two balls are drawn randomly without replacement. Given that the first ball drawn is red, the probability (rounded off to 3 decimal places) that both balls drawn are red is ____",
+            "type":"numerical",
+            "answer":0.37
+        },
+        {
+            "question":"The number of edges present in the forest generated by the DFS traversal of an undirected graph G with 100 vertices is 40 . The number of connected components in G is ____",
+            "type":"numerical",
+            "answer":60
+        },
+        {
+            "question":"The chromatic number of a graph is the minimum number of colours used in a proper colouring of the graph. Let G be any graph with n vertices and chromatic number k. Which of the following statements is/are always TRUE?",
+            "options":["G contains a complete subgraph with k vertices","G contains an independent set of size at least n/k","G ontains at least k(k−1)/2 edges","G contains a vertex of degree at least k"],
+            "answer":["G contains an independent set of size at least n/k","G ontains at least k(k−1)/2 edges"]
+        },
+        {
+            "question":"Let f:R→R  be a function such that f(x)=max{x,x^3}, x ∈ R, where R is the set of all real numbers. The set of all points where R  is NOT differentiable is",
+            "options":["-1,1,2","-2,-1,1","0,1","-1,0,1"],
+            "answer":"-1,0,1"
+        },
+        {
+            "question":"select one or more correct options given below :",
+            "image":"../questionbank/dm3.png",
+            "options" :["A","B","C","D"],
+            "answer":["A","B","C"]
+        },
+        {
+            
+        }
+     
+    ]
+}
